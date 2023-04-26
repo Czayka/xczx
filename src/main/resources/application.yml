@@ -1,0 +1,19 @@
+spring:
+  application:
+    name: xxx
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://159.75.56.189:3306/xcplus_system?serverTimezone=UTC&userUnicode=true&useSSL=false&
+    username: root
+    password: 123456
+server:
+  servlet:
+    context-path: /system
+  port: 63110
+
+swagger:
+  title: "学成在线系统管理"
+  description: "系统管理接口"
+  base-package: com.cxf.xczx
+  enabled: true
+  version: 1.0.0
